@@ -19,6 +19,7 @@ http://boards.4chan.org/g/thread/66851382
 http://boards.4chan.org/g/thread/66847028
 ```
 `java -jar 4downloader-ultimate.jar -f path/to/links.txt`will download 3 links listed in the file (**1 link per line**)
+<br/>
 4. Or **ANY** combinations of these!
 
 ### Other features
