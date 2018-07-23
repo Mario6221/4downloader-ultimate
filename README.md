@@ -4,7 +4,7 @@ The ultimate open-source[0] image downloader(from 4chan[1])
 ### What is this?
 This jar file gives you option to download images from boards with:
 1. Direct links to threads i.e. `java -jar 4downloader-ultimate.jar http://boards.4chan.org/g/thread/66855397` (it is important to paste the whole link)
-2. RegEx[2] search through given board catalog. i.e. `java -jar 4downloader-ultimate.jar -b g -r ".*/dpt/.*"` will download every thread with title(sub) containing /dpt/ 
+2. RegEx[2] search through given board catalog. i.e. `java -jar 4downloader-ultimate.jar -b g -r .*/dpt/.*` will download every thread with title(sub) containing /dpt/ 
 3. Files containing following structure(**1 link per line**):
 ```
 link
@@ -12,13 +12,13 @@ link
 link
 ...
 ```
-i.e.
+i.e. file `links.txt` containing 3 lines
 ```
 http://boards.4chan.org/g/thread/66855397
 http://boards.4chan.org/g/thread/66851382
 http://boards.4chan.org/g/thread/66847028
 ```
-will download 3 links listed in the file (**1 link per line**)
+`java -jar 4downloader-ultimate.jar -f path/to/links.txt`will download 3 links listed in the file (**1 link per line**)
 4. Or **ANY** combinations of these!
 
 ### Other features
@@ -27,8 +27,9 @@ will download 3 links listed in the file (**1 link per line**)
 3. Setting download destination (not prefered, but possible. Takes the Downloads/new or Downloads/permanent prefix)
 
 ### Coming next
-1. Image database using hashing algorithims
-2. Human image classification software
+1. Bash automatization of the line-typing process(in near future)
+2. Image database using image hashing algorithims (late summer 2018)
+3. Human image classification software (autumn 2018)
 
 ### Any other questions?
 1. Run `java -jar 4downloader-ultimate.jar -h` in console in same directory as the 4downloader-ultimate.jar file
