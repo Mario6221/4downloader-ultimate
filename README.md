@@ -27,10 +27,8 @@ http://boards.4chan.org/g/thread/66847028
 2. Silent mode
 3. Setting download destination (not prefered, but possible. Takes the Downloads/new or Downloads/permanent prefix)
 
-### Coming next
-1. Bash automatization of the line-typing process(in near future)
-2. Image database using image hashing algorithims (late summer 2018)
-3. Human image classification software (autumn 2018)
+### Related
+https://github.com/Mario6221/classifyimg
 
 ### Any other questions?
 1. Run `java -jar 4downloader-ultimate.jar -h` in console in same directory as the 4downloader-ultimate.jar file
