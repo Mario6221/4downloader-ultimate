@@ -30,7 +30,7 @@ http://boards.4chan.org/g/thread/66847028
 ### Related
 https://github.com/Mario6221/classifyimg
 
-### Any other questions?
+### Any questions?
 1. Run `java -jar 4downloader-ultimate.jar -h` in console in same directory as the 4downloader-ultimate.jar file
 2. Tweet @mario662211
 
